@@ -40,5 +40,5 @@ export VAULT_ADDR='https://127.0.0.1:8200'
 Maintenant que le service est bien en production sur le port 8200, il est nécessaire de débloquer l'accès, car celui-ci est nativement scellé. 5 clés différentes sont générées pour être partagées entre les différents utilisateurs/administrateurs et au moins 3 de ces clés doivent être fournies à Vault pour désactiver le scellement et permettre sa manipulation.
 
 <p>
-  <img src="93.90.205.194/var/www/html/github/terraform/vault/unseal_img.png" />
+  <img src="http://93.90.205.194/github/terraform/vault/unseal_img.png" />
 </p>
