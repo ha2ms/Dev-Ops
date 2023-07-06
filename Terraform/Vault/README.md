@@ -42,3 +42,9 @@ Maintenant que le service est bien en production sur le port 8200, il est néces
 <p>
   <img src="http://93.90.205.194/github/terraform/vault/unseal_img.png" />
 </p>
+
+Pour récupérer le Token d'authentification à Vault et les 5 clés de descellement, utilisez la commande suivante:
+
+```Bash
+vault operator init
+```
