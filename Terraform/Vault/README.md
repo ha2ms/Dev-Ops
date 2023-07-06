@@ -52,3 +52,9 @@ vault operator init
 <p>
  <img src="https://media.licdn.com/dms/image/D4E12AQFfnQPN-r4r6Q/article-inline_image-shrink_1500_2232/0/1687962613611?e=1694044800&v=beta&t=8YipukfaIUGLaN4n3CAL8nf0bP6R1EcqgN6u5sxoIfI">
 </p>
+
+Ici vous retrouverez les 5 clés "Unseal" (descellement), ainsi que le Root Token, pensez bien à récupérer ces valeurs et à les stocker dès maintenant. Nous allons également en profiter pour ajouter le Root Token à notre variable d'environnement:
+
+```Bash
+export VAULT_TOKEN="hvs.13Xal16..."
+```
