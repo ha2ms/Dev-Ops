@@ -62,3 +62,6 @@ Ou en l'ajoutant dans le fichier [ .bashrc ]
 
 
 Si vous souhaitez que les modifications apportées à votre fichier [ .bashrc ] soit appliquées sur votre terminal actuel, effectué la commande [ source /home/'user'/.bashrc ].
+
+
+Nous pouvons sans plus tarder desceller avec la commande : [ vault operator unseal ], vous devrez renouveler cette commande au moins 3 fois pour en utilisant à chaque fois une clé "Unseal" différente. Vous saurez que Vault est descellé lorsque le paramètre "Sealed" renvoyé par la commande sera à "false" comme surligné en jaune dans l'image ci-dessous.
