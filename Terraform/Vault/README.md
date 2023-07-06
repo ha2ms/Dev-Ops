@@ -59,3 +59,6 @@ Ici vous retrouverez les 5 clés "Unseal" (descellement), ainsi que le Root Toke
 export VAULT_TOKEN="hvs.13Xal16..."
 ```
 Ou en l'ajoutant dans le fichier [ .bashrc ]
+
+
+Si vous souhaitez que les modifications apportées à votre fichier [ .bashrc ] soit appliquées sur votre terminal actuel, effectué la commande [ source /home/'user'/.bashrc ].
