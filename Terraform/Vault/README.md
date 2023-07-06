@@ -48,3 +48,7 @@ Pour récupérer le Token d'authentification à Vault et les 5 clés de descelle
 ```Bash
 vault operator init
 ```
+
+<p>
+ <img src="https://media.licdn.com/dms/image/D4E12AQFfnQPN-r4r6Q/article-inline_image-shrink_1500_2232/0/1687962613611?e=1694044800&v=beta&t=8YipukfaIUGLaN4n3CAL8nf0bP6R1EcqgN6u5sxoIfI">
+</p>
