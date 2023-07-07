@@ -65,3 +65,7 @@ Si vous souhaitez que les modifications apportées à votre fichier [ .bashrc ] 
 
 
 Nous pouvons sans plus tarder desceller avec la commande : [ vault operator unseal ], vous devrez renouveler cette commande au moins 3 fois pour en utilisant à chaque fois une clé "Unseal" différente. Vous saurez que Vault est descellé lorsque le paramètre "Sealed" renvoyé par la commande sera à "false" comme surligné en jaune dans l'image ci-dessous.
+
+<p>
+ <img src="https://media.licdn.com/dms/image/D4E12AQFTjmHLVP6p-g/article-inline_image-shrink_1500_2232/0/1687964035068?e=1694044800&v=beta&t=JPitwE8UB3C6Eo0DKADs9T2HfXDpUmoR4QNUVvCR3YY" />
+</p>
