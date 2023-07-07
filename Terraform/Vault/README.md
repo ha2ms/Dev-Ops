@@ -76,3 +76,8 @@ Vault est enfin opérationnel !
 ## Création d'un nouveau secret et d'un ensemble de clés
 
 Pour imager le stockage des données sensibles par Vault, on peut penser à une organisation en répertoire (appelé path), où sont conservés les fichiers (appelés secrets), contenant chacun un ensemble de clé=valeur (appelé keys).
+
+
+<p>
+ <img src="https://media.licdn.com/dms/image/D4E12AQG7tasw5uvSOg/article-inline_image-shrink_1500_2232/0/1688070733890?e=1694044800&v=beta&t=sUahibcXqhCU3jLtWirz_WBcb2Rp-592Cd2AR6_YD9s" />
+</p>
