@@ -88,4 +88,13 @@ Nous pouvons dès à présent ajouter un secret avec les keys qu'il contient dan
 ```Bash
 vault kv put esxi-lille/auth user='Mehdi' password='MyP\@ssw0rd'
 ```
+ L'ajout de caractères spéciaux (comme le @) nécessite d'être précédés d'un '\'.
 
+L'on peut maintenant vérifier le contenu de nos données chiffrées via la commande: 
+```Bash
+vault kv get esxi-lille/auth
+```
+
+<p>
+ <img src="https://media.licdn.com/dms/image/D4E12AQFZ8Xwfl0El_w/article-inline_image-shrink_1500_2232/0/1688071815916?e=1694044800&v=beta&t=sk4w2hbWkmUMkopronM74Zgglk6IoNIppoKapkw1yJE" />
+</p>
