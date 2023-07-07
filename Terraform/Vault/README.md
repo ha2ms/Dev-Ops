@@ -69,3 +69,10 @@ Nous pouvons sans plus tarder desceller avec la commande : [ vault operator unse
 <p>
  <img src="https://media.licdn.com/dms/image/D4E12AQFTjmHLVP6p-g/article-inline_image-shrink_1500_2232/0/1687964035068?e=1694044800&v=beta&t=JPitwE8UB3C6Eo0DKADs9T2HfXDpUmoR4QNUVvCR3YY" />
 </p>
+ Vault se scellera de nouveau dès lors que le service sera coupé puis redémarré, il faudra donc recommencer cette opération.
+
+Vault est enfin opérationnel ! 
+
+## Création d'un nouveau secret et d'un ensemble de clés
+
+Pour imager le stockage des données sensibles par Vault, on peut penser à une organisation en répertoire (appelé path), où sont conservés les fichiers (appelés secrets), contenant chacun un ensemble de clé=valeur (appelé keys).
