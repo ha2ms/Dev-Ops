@@ -72,17 +72,20 @@ Nous pouvons sans plus tarder desceller avec la commande : [ vault operator unse
  Vault se scellera de nouveau dès lors que le service sera coupé puis redémarré, il faudra donc recommencer cette opération.
 
 Vault est enfin opérationnel ! 
+<p>
+ <img src="https://media.licdn.com/dms/image/D4E12AQG7tasw5uvSOg/article-inline_image-shrink_1500_2232/0/1688070733890?e=1694044800&v=beta&t=sUahibcXqhCU3jLtWirz_WBcb2Rp-592Cd2AR6_YD9s" />
+</p>
 
 ## Création d'un nouveau secret et d'un ensemble de clés
 
 Pour imager le stockage des données sensibles par Vault, on peut penser à une organisation en répertoire (appelé path), où sont conservés les fichiers (appelés secrets), contenant chacun un ensemble de clé=valeur (appelé keys).
 
 Pour créer ce fameux path (répertoire), utilisez la commande suivante:
-
 ```Bash
 vault secrets enable -path=esxi-lille -version=1 kv
 ```
 Nous pouvons dès à présent ajouter un secret avec les keys qu'il contient dans le path (répertoire) que nous venons de créer:
-<p>
- <img src="https://media.licdn.com/dms/image/D4E12AQG7tasw5uvSOg/article-inline_image-shrink_1500_2232/0/1688070733890?e=1694044800&v=beta&t=sUahibcXqhCU3jLtWirz_WBcb2Rp-592Cd2AR6_YD9s" />
-</p>
+```Bash
+vault kv put esxi-lille/auth user='Mehdi' password='MyP\@ssw0rd'
+```
+
