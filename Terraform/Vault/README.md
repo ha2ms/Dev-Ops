@@ -98,3 +98,5 @@ vault kv get esxi-lille/auth
 <p>
  <img src="https://media.licdn.com/dms/image/D4E12AQFZ8Xwfl0El_w/article-inline_image-shrink_1500_2232/0/1688071815916?e=1694044800&v=beta&t=sk4w2hbWkmUMkopronM74Zgglk6IoNIppoKapkw1yJE" />
 </p>
+
+Nous pouvons également lister les secrets créés de notre path. Ici nous avons seulement le secret [ auth ] de défini:
