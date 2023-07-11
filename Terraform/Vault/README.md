@@ -106,3 +106,7 @@ vault kv list esxi-lille
 ```
 
 (Imagae à ajouter)
+
+Nos données sont maintenant stockées et prêtes à l'emploi !
+
+## Importation des données sensibles depuis Terraform:
