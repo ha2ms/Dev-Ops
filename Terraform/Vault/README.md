@@ -104,8 +104,9 @@ Nous pouvons également lister les secrets créés de notre path. Ici nous avons
 ```Bash
 vault kv list esxi-lille
 ```
-
-(Imagae à ajouter)
+<p>
+ <img src="">
+</p>
 
 Nos données sont maintenant stockées et prêtes à l'emploi !
 
