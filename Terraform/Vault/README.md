@@ -101,6 +101,8 @@ vault kv get esxi-lille/auth
 
 Nous pouvons également lister les secrets créés de notre path. Ici nous avons seulement le secret [ auth ] de défini:
 
+(Image a ajouter)
+
 ```Bash
 vault kv list esxi-lille
 ```
