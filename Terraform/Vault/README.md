@@ -116,3 +116,5 @@ Nos données sont maintenant stockées et prêtes à l'emploi !
 
 (Penser à expliciter le prochain contenu)
 (Procédure à terminer rapidement)
+
+(Modifier l'emplacement, a voir si conserver dans Dev-Ops ou non)
